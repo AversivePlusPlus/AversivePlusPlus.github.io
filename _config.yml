@@ -1,0 +1,11 @@
+# Site settings
+title: Aversive++
+email: contact@aversiveplusplus.com
+description: A C++ API to ease microcontroller programming
+baseurl: ""
+url: "http://aversiveplusplus.com"
+twitter_username: jekyllrb
+github_username:  AversivePlusPlus
+
+# Build settings
+markdown: kramdown
