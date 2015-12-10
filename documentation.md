@@ -10,4 +10,4 @@ is_main: true
 
 #Older API Documentations
 
-You can visit the <a href="http://astralien3000.github.io/aversive--">v14.11 documentation</a></p>.
+You can visit the [v14.11 documentation](http://astralien3000.github.io/aversive--).
