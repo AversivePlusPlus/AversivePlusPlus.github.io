@@ -1,31 +1,19 @@
 
-<header id="masthead" class="site-header" role="banner">
-  <div class="hgroup-wrap">
-    <div class="container clearfix">
-      <section id="site-logo" class="clearfix">
-	<h2 id="site-title">
-	  <a href="/" title="Aversive++" rel="home">Aversive++</a>
-	</h2>
-	<h2 id="site-description">
-	  An Open Source C++ library to ease the development on microcontrollers.
-	</h2>
-      </section>
-      <button class="menu-toggle">Responsive Menu</button>
-      <section class="hgroup-right">
-	<nav id="site-navigation" class="main-navigation clearfix" role="navigation">
-	  <ul class="nav-menu">
-	    {% assign sorted_pages = site.pages | sort: 'title' | sort: 'priority','last' %}
-	    {% for p in sorted_pages %}
-	    {% if p.is_main %}
-	    {% if page == p %}
-	    <li class="page_item current-menu-item"><a href="{{p.url}}">{{p.title|title}}</a></li>
-	    {% else %}
-	    <li class="page_item"><a href="{{p.url}}">{{p.title|title}}</a></li>
-	    {% endif %}
-	    {% endif %}
-	    {% endfor %}
-	</nav>
-      </section>
-    </div>
+<header>
+  <div>
+    <h1>
+      <a href="/">Aversive++</a>
+    </h1>
+    <h2>
+      An Open Source C++ library to ease the development on microcontrollers.
+    </h2>
   </div>
+  <nav>
+    <ul>
+      {% assign sorted_pages = site.pages | sort: 'title' | sort: 'priority','last' %}
+      {% for p in sorted_pages %}
+      <li><a href="{{p.url}}">{{p.title|title}}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
 </header>

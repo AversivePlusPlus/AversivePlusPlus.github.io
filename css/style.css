@@ -1,0 +1,171 @@
+
+/* body */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    background-color: #ECECEC;
+    
+    font-family: "Lato",sans-serif;
+}
+
+/* links */
+
+a {
+    color: #00A61E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00A61E;
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #10760E;
+    text-decoration: none;
+}
+
+/* header */
+
+body header,
+body header div,
+body header div h1,
+body header div h2,
+body header nav,
+body header nav ul,
+body header nav ul li {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body header {
+    display: inline-block;
+
+    background-color: white;
+
+    width: 92%;
+    padding-left: 4%;
+    padding-right: 4%;
+    
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+body header div {
+    float: left;
+}
+
+body header div h1 {
+    float: left;
+    color: #666;
+    font-size: 1.6em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    
+
+    margin-right: 1em;
+}
+
+body header div h2 {
+    float: left;
+    color: #999;
+    margin-top: 0.5em;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+body header nav {
+    float: right;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+body header nav ul {
+    list-style-type: none;
+}
+
+body header nav ul li {
+    float: left;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 2em;
+}
+
+body header a:link,
+body header a:visited {
+    color: #666;
+}
+
+body header a:hover,
+body header a:active {
+    color: #00A61E;
+    text-decoration: none;
+}
+
+/* title */
+
+body section,
+body section header,
+body section header h1 {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body section header {
+    width: 100%;
+    text-align: center;
+    padding-top: 1.4em;
+    padding-bottom: 1.5em;
+    background-color: #00A61E;
+    color: white;
+}
+
+body section header h1 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+/* Content */
+
+body div.content {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    padding-left: 5%;
+    padding-right: 10%;
+    width: 85%;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    background-color: white;
+
+    text-align: justify;
+}
+
+/* footer */
+
+body footer {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    text-align: center;
+    
+    background-color: #1A1A1A;
+    color: #777777;
+}
