@@ -17,7 +17,7 @@ They support ATMega2560 and ATMega128 microcontollers, with only a few specific 
 You can also use it with the [SASIAE simulator](https://github.com/astralien3000/tinySASIAE), 
 that was developed by the same team as the library.
 
-## v14.11 (release candidate)
+## v14.11 (beta)
 
 This version is intended to be used with the simulator, and every known bugs have been fixed (if you find one, please, contact us ;) ! )
 It is used for teaching basics of 2 wheeled robot control.
@@ -25,7 +25,7 @@ It is used for teaching basics of 2 wheeled robot control.
  - [Aversive++ v14.11](https://github.com/astralien3000/aversive--/archive/v14.11b.tar.gz)
  - [tinySASIAE v14.11](https://github.com/astralien3000/tinySASIAE/archive/v14.11.tar.gz)
  
-## v14.06 (beta)
+## v14.06 (alpha)
  
 This version was embedded on a real robot using an atmega128.
  
