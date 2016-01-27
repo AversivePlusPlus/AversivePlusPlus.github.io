@@ -1,0 +1,141 @@
+/* home title */
+
+body section h1 {
+    font-size: 2em;
+}
+
+body section h2 {
+    font-size: 1.5em;
+}
+
+body section h3 {
+    font-size: 1em;
+}
+
+/* intro */
+
+section#intro {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+    background-image: url(/img/aversive_back.png);
+    background-size: cover;
+
+    text-align: center;
+}
+
+section#intro div {
+    width: 60%;
+    margin: auto;
+    padding: 0.5em;
+    
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* why */
+
+section#why {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    width: 100%;
+    
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+    background-color: #F9F9F9;
+
+    text-align: center;    
+}
+
+section#why p,
+section#why h1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section#why ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+section#why ul div {
+    display: inline-block;
+}
+
+section#why li {
+    float: left;
+    width: 30%;
+    min-width: 300px;
+    margin: 0.5%;
+    padding: 0.5em;
+
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-stroke: 1px;
+}
+
+section#why li p,
+section#why li h2 {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+/* demo */
+
+section#demo {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    text-align: center;
+}
+
+section#demo h1,
+section#demo p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* byc */
+
+section#byc {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    padding-top: 6%;
+    padding-bottom: 6%;
+    
+    background-image: url(/img/inria_back.jpg);
+    background-size: cover;
+
+    text-align: center;
+}
+
+section#byc h1 {
+    width: 80%;
+    margin: auto;
+    padding: 0.5em;
+    
+    color: white;
+}
+
+section#byc h1 a {
+    color: #00D64E;
+}
+
+section#byc h1 a:hover {
+    color: #00F66E;
+}

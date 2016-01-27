@@ -19,12 +19,12 @@ a {
 }
 
 a:hover {
-    color: #00A61E;
-    text-decoration: underline;
+    color: #00C63E;
+    text-decoration: none;
 }
 
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:visited {
@@ -169,3 +169,4 @@ body footer {
     background-color: #1A1A1A;
     color: #777777;
 }
+
