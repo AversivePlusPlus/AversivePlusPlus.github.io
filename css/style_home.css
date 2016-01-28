@@ -65,16 +65,14 @@ section#why ul {
     list-style-type: none;
 }
 
-section#why ul div {
-    display: inline-block;
-}
-
 section#why li {
     float: left;
     width: 30%;
     min-width: 300px;
     margin: 0.5%;
     padding: 0.5em;
+    padding-top: 1em;
+    min-height: 250px;
 
     border-color: #E5E5E5;
     border-style: solid;
