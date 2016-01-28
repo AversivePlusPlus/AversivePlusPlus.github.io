@@ -43,7 +43,7 @@ This version was embedded on a real robot using an atmega128.
  - [Aversive++ v14.06](https://github.com/astralien3000/aversive--/archive/v14.06.tar.gz)
  - [tinySASIAE v14.06](https://github.com/astralien3000/tinySASIAE/archive/v14.06.tar.gz)
  
-## An example code
+## Example project
 
 You can also download the example project using Aversive++ v14.06 and tinySASIAE v14.06, that simulates a two-wheeled robot.
 The example is tested for linux. The dependencies are g++ (> 4.7), and Qt5.
