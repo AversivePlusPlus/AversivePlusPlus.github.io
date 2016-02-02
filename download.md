@@ -14,13 +14,6 @@ The [current version](https://github.com/AversivePlusPlus/AversivePlusPlus) has 
 You can check the [wiki](https://github.com/AversivePlusPlus/AversivePlusPlus/wiki) 
 to see installation tutorials.
 
-Even without release, we manage to make the master branch always buildable.
-You can check if the current master version is buildable with this label :
-
-![build?](https://travis-ci.org/AversivePlusPlus/AversivePlusPlus.svg?branch=master)
-
-It is automatically generated for each push action.
-
 # Old stable version (2014)
 
 These [stables versions](https://github.com/astralien3000/aversive--) were released in 2014. 
