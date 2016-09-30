@@ -18,12 +18,22 @@ The library provides several features :
  - Easy control system design (use PID, Quadramp, Average, and a lot of other filters).
  - An Inverse Kniematic able to run on very small microcontroller !
  - Some specific drivers for robots actuators and sensors.
- - Containers similar to STL, but with no heap allocation need.
+ - Containers similar to STL, but with no need of (evil) heap allocation.
 
 # Why Aversive++ is different ?
 
-Let's be clear, every framework for embedded systems has it's own difference. 
-But here is a comparison of Aversive++ with other framework of the embedded world :
+Let's be clear, every framework for embedded systems is different. 
+But here are some specificities of Aversive++ :
 
- - Aversive++ provides a build system (like a lots of similar frameworks), but try to be independent from it. 
-Indeed, for example, a part of the library can be exported to Arduino.
+ - Aversive++ provides a build system (like a lot of similar frameworks), but try to be independent from it. 
+Indeed, the library can be compiled with [Arduino](https://www.arduino.cc/), or [RIOT](https://www.riot-os.org/).
+ - Aversive++ is modular, and you don't have to import the whole library to use it's modules.
+ - Aversive++ follows the C++ phylosophy : "you don't pay for what you don't use".
+ 
+# Who use Aversive++ ?
+ 
+Please, see the [Hall of fame](community.html).
+ 
+# How to get started ?
+ 
+Please, see the [Documentation](documentation.html).
