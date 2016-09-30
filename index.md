@@ -15,6 +15,7 @@ and optimized enough to enable small microcontrollers to execute these applicati
 You like C++ ? You like robot programming ? You may like Aversive++ !
 
 The library provides several features : 
+
  - Easy control system design (use PID, Quadramp, Average, and a lot of other filters).
  - An Inverse Kniematic able to run on very small microcontroller !
  - Some specific drivers for robots actuators and sensors.
@@ -25,8 +26,7 @@ The library provides several features :
 Let's be clear, every framework for embedded systems is different. 
 But here are some specificities of Aversive++ :
 
- - Aversive++ provides a build system (like a lot of similar frameworks), but try to be independent from it. 
-Indeed, the library can be compiled with [Arduino](https://www.arduino.cc/), or [RIOT](https://www.riot-os.org/).
+ - Aversive++ provides a build system (like a lot of similar frameworks), but try to be independent from it. Indeed, the library can be compiled with [Arduino](https://www.arduino.cc/), or [RIOT](https://www.riot-os.org/).
  - Aversive++ is modular, and you don't have to import the whole library to use it's modules.
  - Aversive++ follows the C++ phylosophy : "you don't pay for what you don't use".
  
