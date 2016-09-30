@@ -26,9 +26,33 @@ The library provides several features :
 Let's be clear, every framework for embedded systems is different. 
 But here are some specificities of Aversive++ :
 
- - Aversive++ provides a build system (like a lot of similar frameworks), but try to be independent from it. Indeed, the library can be compiled with [Arduino](https://www.arduino.cc/), or [RIOT](https://www.riot-os.org/).
- - Aversive++ is modular, and you don't have to import the whole library to use it's modules.
- - Aversive++ follows the C++ phylosophy : "you don't pay for what you don't use".
+<div style="overflow:auto;">
+<span style="float:left; margin-right: 20px;">
+<img src="/img/home_icons/warn.svg" alt="build" />
+</span>
+<p>
+Aversive++ provides a build system (like a lot of similar frameworks), but try to be independent from it. 
+Indeed, the library can be compiled with [Arduino](https://www.arduino.cc/), or [RIOT](https://www.riot-os.org/).
+</p>
+</div>
+
+<div style="overflow:auto;">
+<span style="float:left; margin-right: 20px;">
+<img src="/img/home_icons/comm.svg" alt="modules" />
+</span>
+<p>
+Aversive++ is modular, and you don't have to import the whole library to use it's modules.
+</p>
+</div>
+
+<div style="overflow:auto;">
+<span style="float:left; margin-right: 20px;">
+<img src="/img/home_icons/cpp.svg" alt="cpp" />
+</span>
+<p>
+Aversive++ follows the C++ phylosophy : "you don't pay for what you don't use".
+</p>
+</div>
  
 # Who use Aversive++ ?
  
