@@ -32,7 +32,7 @@ But here are some specificities of Aversive++ :
 </span>
 <p>
 Aversive++ provides a build system (like a lot of similar frameworks), but try to be independent from it. 
-Indeed, the library can be compiled with [Arduino](https://www.arduino.cc/), or [RIOT](https://www.riot-os.org/).
+Indeed, the library can be compiled with Arduino, or RIOT.
 </p>
 </div>
 
