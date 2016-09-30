@@ -16,10 +16,41 @@ You like C++ ? You like robot programming ? You may like Aversive++ !
 
 The library provides several features : 
 
- - Easy control system design (use PID, Quadramp, Average, and a lot of other filters).
- - An Inverse Kniematic able to run on very small microcontroller !
- - Some specific drivers for robots actuators and sensors.
- - Containers similar to STL, but with no need of (evil) heap allocation.
+<div style="overflow:auto;">
+<span style="float:left; margin-right: 20px;">
+<img src="/img/home_icons/cs.svg" alt="cs" />
+</span>
+<p>
+Easy control system design (use PID, Quadramp, Average, and a lot of other filters).
+</p>
+</div>
+
+<div style="overflow:auto;">
+<span style="float:left; margin-right: 20px;">
+<img src="/img/home_icons/cs.svg" alt="ik" />
+</span>
+<p>
+An Inverse Kniematic able to run on very small microcontroller !
+</p>
+</div>
+
+<div style="overflow:auto;">
+<span style="float:left; margin-right: 20px;">
+<img src="/img/home_icons/embed.svg" alt="driver" />
+</span>
+<p>
+Some specific drivers for robots actuators and sensors.
+</p>
+</div>
+
+<div style="overflow:auto;">
+<span style="float:left; margin-right: 20px;">
+<img src="/img/home_icons/mem.svg" alt="container" />
+</span>
+<p>
+Containers similar to STL, but with no need of (evil) heap allocation.
+</p>
+</div>
 
 # Why Aversive++ is different ?
 
